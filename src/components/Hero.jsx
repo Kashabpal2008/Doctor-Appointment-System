@@ -1,4 +1,4 @@
-
+import DoctorImg from "../assets/indian-doctor.png";
 
 const Hero = () => {
   return (
@@ -40,8 +40,12 @@ const Hero = () => {
       </div>
 
       {/* Right */}
-      <div className="bg-[url('./src/assets/indian-doctor.png')]
-       bg-contain bg-no-repeat bg-center h-98 rounded-lg shadow-lg"></div>
+      {/* Right */}
+<div
+  className="bg-contain bg-no-repeat bg-center h-98 rounded-lg shadow-lg"
+  style={{ backgroundImage: `url(${DoctorImg})` }}
+>
+</div>
       </div>
 
     </div>
