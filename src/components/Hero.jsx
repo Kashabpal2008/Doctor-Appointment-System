@@ -1,5 +1,4 @@
 
-import DoctorImg from "../assets/Indian-doctor.png";
 
 const Hero = () => {
   return (
@@ -50,7 +49,7 @@ const Hero = () => {
           <div className="flex h-[350px] w-full items-center justify-center sm:h-[450px]">
 
             <img
-              src={DoctorImg}
+              src="./assets/Indian-doctor.png"
               alt="Indian Doctor"
               className="h-full w-full object-contain"
             />
