@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/AppLogo.svg";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
